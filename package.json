@@ -1,0 +1,35 @@
+{
+  "name": "roker",
+  "version": "0.0.1",
+  "description": "Roker API SDK for NodeJS",
+  "main": "lib/roker.js",
+  "scripts": {
+    "test": "mocha \"test/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepankouba/roker-node.git"
+  },
+  "types": "types/index.d.ts",
+  "keywords": [
+    "roker",
+    "SDK",
+    "invoices",
+    "expenses"
+  ],
+  "author": "Stepan Kouba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stepankouba/roker-node/issues"
+  },
+  "homepage": "https://github.com/stepankouba/roker-node#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-storage": "0.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0"
+  }
+}
